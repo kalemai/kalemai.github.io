@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128,128,128,0.8);
+    
+
+}
+
+.contents{
+    text-align: center;   
+    border: solid 2px white;
+    margin: 10% 20px 10% 20px;
+}
+
+#footer{
+    margin-top: 30%;
+    text-align: center;
+    background-color: gray;
+    color: honeydew;
+    padding: 10px;
+    
+
+}
