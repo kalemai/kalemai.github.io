@@ -1,873 +1,1033 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Hisman &mdash; Property Consultants</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>COMMUNITY HEALTH INITIATIVES | UGANDA | CHI-U</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">   
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="css/nouislider.css">
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="css/style.css" rel="stylesheet">    
+
+   
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="aa-price-range">  
+  <!-- Pre Loader -->
+  <div id="aa-preloader-area">
+    <div class="pulse"></div>
+  </div>
+  <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-double-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="aa-header">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-header-area">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="aa-header-left">
+                  <div class="aa-telephone-no">
+                    <span class="fa fa-phone"></span>
+                    0782 388174 / 0703 828476 / 0782 492218
+                  </div>
+                  <div class="aa-email hidden-xs">
+                    <span class="fa fa-envelope-o"></span> info@communityhealthinitiative-ug.org
+                  </div>
+                </div>              
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <!--<div class="aa-header-right">
+                  <a href="register.html" class="aa-register">Register</a>
+                  <a href="signin.html" class="aa-login">Login</a>
+                </div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header section -->
+
+  <!-- Start menu section -->
+  <section id="aa-menu-area">
+    <nav class="navbar navbar-default main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->                                               
+          <!-- Text based logo -->
+           <a class="navbar-brand aa-logo" href="index.html"> Community Health Intiative <span>Uganda</span></a>
+           <!-- Image based logo -->
+           <!--<a class="navbar-brand aa-logo-img" href="index.html"><img src="img/logo.png" alt="logo"></a>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
+            <li class="active"><a href="index.html">HOME</a></li>
+             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="contact.html">EVENTS <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">                
+                <li><a href="upevents.html">Upcoming Events</a></li>
+                <!--<li><a href="properties-detail.html">PROPERTIES DETAIL</a></li> -->                                           
+              </ul>
+            </li>
+            <li><a href="gallery.html">GALLERY</a></li>                                         
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">BLOG <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">                
+                <li><a href="blog-archive.html">BLOG</a></li>
+                <li><a href="blog-single.html">BLOG DETAILS</a></li>                                            
+              </ul>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+           <!--<li><a href="404.html">404 PAGE</a></li>-->
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </section>
+  <!-- End menu section -->
+
+  <!-- Start slider  -->
+  <section id="aa-slider">
+    <div class="aa-slider-area"> 
+      <!-- Top slider -->
+      <div class="aa-top-slider">
+        <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/3.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="aa-top-slider-content">
+            
+            <span class="aa-top-slider-catg">P.O.BOX 1317, MAYUGE TOWN COUNCIL
+<p>IKULWE WARD, BUGINGO ZONE</p>
+</span>
+            <p class="aa-top-slider-location"></p>
+            
+            <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->
+        <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/2.jpg" alt="img">
+          <!-- Top slider content -->
+          <!--<div class="aa-top-slider-content">
+            <span class="aa-top-slider-catg">SALE-10Decimals</span>
+            <h2 class="aa-top-slider-title">Appealing HOUSE</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Kira-Mamerito road</p>
+            <span class="aa-top-slider-off">4Bedrooms, 4Bathrooms, Well fitted kitchen</span>
+            <p class="aa-top-slider-price">Ugx 470m</p>
+            <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+          </div>-->
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->
+        <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/1.jpg" alt="img">
+          <!-- Top slider content -->
+          <!--<div class="aa-top-slider-content">
+            <span class="aa-top-slider-catg">Sale-14 Decimals</span>
+            <h2 class="aa-top-slider-title">Bungalow House</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Kira - Kasangati road just Opposite Green Hill Academy</p>
+            <span class="aa-top-slider-off"> 6bedrooms,4bathrooms,Sitting&dining...</span>
+            <p class="aa-top-slider-price">Ugx 530m</p>
+            <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+          </div>-->
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->       
+         <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/5.jpg" alt="img">
+          <!-- Top slider content -->
+          <!--<div class="aa-top-slider-content">
+            <span class="aa-top-slider-catg">sale</span>
+            <h2 class="aa-top-slider-title">Luxurious mansion</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Kyanja hill</p>
+            <span class="aa-top-slider-off">7bedrooms, 8bathrooms, 2sitting rooms...</span>
+            <p class="aa-top-slider-price">ugx1.15Bn</p>
+            <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+          </div>-->
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->        
+         <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/4.jpg" alt="img">
+          <!-- Top slider content -->
+          <!--<div class="aa-top-slider-content">
+            <span class="aa-top-slider-catg">sale</span>
+            <h2 class="aa-top-slider-title">Double_storied mansion</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Kira along Najjera Rd.</p>
+            <span class="aa-top-slider-off">5 bedrooms, 4 bathrooms... </span>
+            <p class="aa-top-slider-price">ugx 780m</p>
+            <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+          </div>-->
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->
+         <!-- Top slider single slide -->
+        <div class="aa-top-slider-single">
+          <img src="img/slider/6.jpg" alt="img">
+          <!-- Top slider content -->
+         <!--<div class="aa-top-slider-content">
+            <span class="aa-top-slider-catg">Sale</span>
+            <h2 class="aa-top-slider-title">Stunning mansion house</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Kira-Kasangati Rd</p>
+            <span class="aa-top-slider-off">6 bedrooms,7 bedrooms...</span>
+            <p class="aa-top-slider-price">ugx 1.3Bn</p>
+            <a href="#" class="aa-top-slider-btn">Read More <span class="fa fa-angle-double-right"></span></a>
+          </div>-->
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
+
+  <!-- Advance Search -->
+<!--<section id="aa-advance-search">
+    <div class="container">
+      <div class="aa-advance-search-area">
+        <div class="form">
+         <div class="aa-advance-search-top">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="aa-single-advance-search">
+                  <input type="text" placeholder="Type Your Location">
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="aa-single-advance-search">
+                  <select>
+                   <option value="0" selected>Category</option>
+                    <option value="1">Flat</option>
+                    <option value="2">Land</option>
+                    <option value="3">Plot</option>
+                    <option value="4">Commercial</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
+                 <div class="aa-single-advance-search">
+                  <select>
+                    <option value="0" selected>Type</option>
+                    <option value="1">Flat</option>
+                    <option value="2">Land</option>
+                    <option value="3">Plot</option>
+                    <option value="4">Commercial</option>
+                  </select>
+              </div>
+              </div>
+              <div class="col-md-2">
+                 <div class="aa-single-advance-search">
+                  <select>
+                    <option value="0" selected>Type</option>
+                    <option value="1">Flat</option>
+                    <option value="2">Land</option>
+                    <option value="3">Plot</option>
+                    <option value="4">Commercial</option>
+                  </select>
+              </div>
+              </div>
+              <div class="col-md-2">
+                <div class="aa-single-advance-search">
+                  <input class="aa-search-btn" type="submit" value="Search">
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="aa-advance-search-bottom">
+           <div class="row">
+            <div class="col-md-6">
+              <div class="aa-single-filter-search">
+                <span>AREA (SQ)</span>
+                <span>FROM</span>
+                <span id="skip-value-lower" class="example-val">30.00</span>
+                <span>TO</span>
+                <span id="skip-value-upper" class="example-val">100.00</span>
+                <div id="aa-sqrfeet-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+                </div>                  
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="aa-single-filter-search">
+                <span>PRICE (UXG)</span>
+                <span>FROM</span>
+                <span id="skip-value-lower2" class="example-val">30.00</span>
+                <span>TO</span>
+                <span id="skip-value-upper2" class="example-val">100.00</span>
+                <div id="aa-price-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+                </div>      
+              </div>
+            </div>
+          </div>  
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- / Advance Search -->
+
+  <!-- About us -->
+  <section id="aa-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-about-us-area">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="aa-about-us-left">
+                  <img src="img/about-us.jpg" alt="image">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="aa-about-us-right">
+                  <div class="aa-title">
+                    <h2>Organisation profile:</h2>
+                    <span></span>
+                  </div>
+                  <p>Community Health Initiatives-Uganda is a Community Based
+              organization established in 2019 and registered in 2021 by a group of volunteers after
+              realizing the need to address health barriers to community development to enhance community
+              cooperation for improved health and well-being conditions. It is registered by the district
+              local government under registration number MYG/DNGOMC/011 with the board of directors that 
+              comprises of 5 members and operating its own bank account.</p>                  
+                  <div class="aa-about-us-right">
+                    <h3>Principle Activities:</h3>
+                  </div>
+                  <ul>
+                    <li>HIV/Aids Awareness, prevention and education.</li>
+                    <li>Sexual and reproductive health and rights.</li>
+                    <li>Community care and support as well as community development.</li>                    
+                    <li>Health education and promotions</li>
+                    <li>Menstrual Hygiene.</li>
+                    <li>Sanitation and Water, Sanitation and Hygiene.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / About us -->
+
+  <!-- Latest property -->
+  <section id="aa-latest-property">
+    <div class="container">
+      <div class="aa-latest-property-area">
+        <div class="aa-title">
+          <h2>Our Vision, Mission and Core Values:</h2>
+          <span></span>
+          <p>Like any organisation that will grow, we respect the above and came up with the ones described below.</p>         
+        </div>
+        <div class="aa-latest-properties-content">
+          <div class="row">
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/1.jpg" alt="img">
+                </a>
+                
+                <div class="aa-properties-item-content">
+                  
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Our Vision</a></h3>
+                    <p>A health Community for Sustainable Development.</p>                      
+                  </div>
+                  
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/2.jpg" alt="img">
+                </a>
+                <!--<div class="aa-tag for-rent">-->
+                
+                <div class="aa-properties-item-content">
+                  
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Mission Statement</a></h3>
+                    <p>To improve public and population health practices to support healthier 
+                      communities focusing on vulnerable and disadvantaged communities through community mobilization and sensitization,
+                      Health education and promotion, partnership, training, advocacy and research.</p>                      
+                  </div>
+                  
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/3.jpg" alt="img">
+                </a>
+                
+                  
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Core Values</a></h3>
+                    <p>These include Commitment, Respect, Teamwork, Accountability and Partnership.</p>                      
+                  </div>
+                  
+                </div>
+              </article>
+            </div>
+            
+            <!--<div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/4.jpg" alt="img">
+                </a>
+                <div class="aa-tag for-sale">
+                  For Sale
+                </div>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>11 Rooms</span>
+                    <span>5 Beds</span>
+                    <span>4 Baths</span>
+                    <span>25 Decimals</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Double storied mansion</a></h3>
+                    <p>Kira along Najjera Rd. 2 living rooms, Spacious kitchen with a Boy's quarter, guard house, ready land title</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <span class="aa-price">
+                      UGX 780m
+                    </span>
+                    <a href="#" class="aa-secondary-btn">View Details</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/5.jpg" alt="img">
+                </a>                
+                <div class="aa-tag sold-out">
+                <div class="aa-tag for-sale">
+                  For Sale
+                </div>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>13 Rooms</span>
+                    <span>7 Beds</span>
+                    <span>6 Baths</span>
+                    <span>25 Decimals</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Stunning mansion</a></h3>
+                    <p>Kira-Kasangati road, It has a spacious living & dining, well fitted kitchen, ample parking in secured neighborhood, ready land title</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <span class="aa-price">
+                      UGX 1.3Bn
+                    </span>
+                    <a href="#" class="aa-secondary-btn">View Details</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/6.jpg" alt="img">
+                </a>
+                <div class="aa-tag for-rent">
+                <div class="aa-tag for-sale">
+                  For Sale
+                </div>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>12 Rooms</span>
+                    <span>6 Beds</span>
+                    <span>6 Baths</span>
+                    <span>25 Decimals</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Brand new mansion</a></h3>
+                    <p>Includes living & dining rooms, kitchen, paved ample parking, private mailo land title</p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <span class="aa-price">
+                      UGX 1.2Bn
+                    </span>
+                    <a href="#" class="aa-secondary-btn">View Details</a>
+                  </div>
+                </div>
+              </article>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Latest property -->
+
+  <!-- Service section -->
+  <section id="aa-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-service-area">
+            <div class="aa-title">
+              <h2>Our Service detailed</h2>
+              <span></span>
+              <p>As listed above, hear we give more hights on each of the services offer.</p>
+            </div>
+            <!-- service content -->
+            <div class="aa-service-content">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-home"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">HIV/AIDS Awareness, Prevention, and Education</a></h4>
+                      <p>This activity involves sensitizing communities about HIV/AIDS transmission, 
+                        prevention methods, and the importance of early testing and treatment. It promotes safe practices, 
+                        combats stigma and discrimination, 
+                        and empowers individuals with knowledge to make informed health decisions.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-check"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Sexual and Reproductive Health and Rights (SRHR)</a></h4>
+                      <p>SRHR ensures individuals have access to information and services related to 
+                        sexuality, family planning, and reproductive choices. This includes promoting rights to safe pregnancy, access to contraceptives, prevention of sexually transmitted infections, 
+                        and respect for bodily autonomy, especially for women and youth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-crosshairs"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Community Care and Support as well as Community Development</a></h4>
+                      <p>This activity focuses on strengthening local support systems for 
+                        vulnerable groups, including people living with HIV, orphans, 
+                        and the elderly. It also involves empowering communities through capacity
+                         building, income-generating activities, and sustainable development initiatives 
+                         that improve overall well-being.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-bar-chart-o"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Health Education and Promotions</a></h4>
+                      <p>Health education and promotion aim to increase public awareness about healthy lifestyles, disease prevention, and health services. Through campaigns, workshops, and media, it encourages behavior change, improved nutrition, vaccination uptake, and regular medical check-ups.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Service section -->
+
+  <!-- Promo Banner Section -->
+  <section id="aa-promo-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-promo-banner-area">
+            <h3>Vulnerable communities</h3>
+            <p>Include Children, youths, Adolescent girls and young women, pregnant mothers, elderly people, malnourished people and people who are I'll or Immune compromised.</p>
+            <h3>Disadvantaged Communities</h3>
+            <p>Include people suffering from a combination of economic, 
+              health and environmental burdens which includes poverty, high levels of unemployment, 
+              air and water pollution, emergencies etc.</p>
+            <a href="#" class="aa-view-btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Promo Banner Section -->
+
+  <!-- Our Agent Section-->
+  <section id="aa-agents">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-agents-area">
+            <div class="aa-title">
+              <h2>Board of Directors </h2>
+              <span></span>
+              <p>The Board of Directors is comprised of 5 members as shown below.</p>
+            </div>
+            <!-- agents content -->
+            <div class="aa-agents-content">
+              <ul class="aa-agents-slider">
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-1.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Mr. Mugabi Wilson</a></h4>
+                      <span>Managing Director</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-5.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">John Smith</a></h4>
+                      <span>Receptionist</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-3.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">John Smith</a></h4>
+                      <span>Director</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-4.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">John Smith</a></h4>
+                      <span>Jr. Agent</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                 <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-1.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">John Smith</a></h4>
+                      <span>Top Agent</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-5.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Adam Barney</a></h4>
+                      <span>Expert Agent</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-3.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">Carol Kirabo</a></h4>
+                      <span>Sales Representative</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="aa-single-agents">
+                    <div class="aa-agents-img">
+                      <img src="img/agents/agent-4.png" alt="agent member image">
+                    </div>
+                    <div class="aa-agetns-info">
+                      <h4><a href="#">John Smith</a></h4>
+                      <span>Jr. Agent</span>
+                      <div class="aa-agent-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Our Agent Section-->
+
+  <!-- Client Testimonial -->
+  <section id="aa-client-testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-client-testimonial-area">
+            <div class="aa-title">
+              <h2>What Beneficiaries Say</h2>
+              <span></span>
+              <p>Some of the many happy beneficiaries that we have recently served and walked away with a smile.</p>
+            </div>
+            <!-- testimonial content -->
+            <div class="aa-testimonial-content">
+              <!-- testimonial slider -->
+              <ul class="aa-testimonial-slider">
+                <li>
+                  <div class="aa-testimonial-single">
+                    <div class="aa-testimonial-img">
+                      <img src="img/testimonial-1.png" alt="testimonial img">
+                    </div>
+                    <div class="aa-testimonial-info">
+                      <p>CHI-U gave a reason to smile with my genuine land title in my hands. I look forward to giving them more business.</p>
+                    </div>
+                    <div class="aa-testimonial-bio">
+                      <p>Ivan Kalema</p>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                </li>
+                 <li>
+                  <div class="aa-testimonial-single">
+                    <div class="aa-testimonial-img">
+                      <img src="img/testimonial-3.png" alt="testimonial img">
+                    </div>
+                    <div class="aa-testimonial-info">
+                      <p>Every journey starts with a single step. Jokingly I started depositing to acquire a piece of land, before I knew it, it was done without loosing any party. The offer genuine services.</p>
+                    </div>
+                    <div class="aa-testimonial-bio">
+                      <p>David W</p>
+                      <span>Teacher</span>
+                    </div>
+                  </div>
+                </li>
+                 <li>
+                  <div class="aa-testimonial-single">
+                    <div class="aa-testimonial-img">
+                      <img src="img/testimonial-2.png" alt="testimonial img">
+                    </div>
+                    <div class="aa-testimonial-info">
+                      <p>I like the strategically located sites they have all over Uganda be it for residence of business. </p>
+                    </div>
+                    <div class="aa-testimonial-bio">
+                      <p>Dan K.</p>
+                      <span>Structural Engineer</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Client Testimonial -->
+
+  <!-- Client brand -->
+  <section id="aa-client-brand">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-client-brand-area">
+            <ul class="aa-client-brand-slider">
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-1.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-2.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-3.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-5.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-4.png" alt="brand image">
+                </div>
+              </li>
+               <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-1.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-2.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-3.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-5.png" alt="brand image">
+                </div>
+              </li>
+              <li>
+                <div class="aa-client-single-brand">
+                  <img src="img/client-brand-4.png" alt="brand image">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Client brand -->
+
+  <!-- Latest blog -->
+  <section id="aa-latest-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-latest-blog-area">
+            <div class="aa-title">
+              <h2>Latest News</h2>
+              <span></span>
+              <p>We bring you the latest news about property and real estate management and development.</p>
+            </div>
+            <div class="aa-latest-blog-content">
+              <div class="row">
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="img/blog-img-1.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 Feb, 2024</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a href="#">Real estate business tips</a></h3>
+                      <h3>Make sure that you hire the right real estate agent</h3>
+
+                        <p>Real estate professionals agree that the best investment that a seller can make is to spend time researching the proper agent for their property. This is because a good agent can save you thousands of dollars by ensuring a quick turnaround of your house after you put it on the market.
+                        
+                        The first step to picking the right agent is to analyze out their online promotional material for quality. Secondly, have a look at their profiles on social media and gauge their market appeal. Proceed to create a shortlist and interact on a first-hand basis with each agent. While doing so, ask about their current listings, reports of sales-activity, average time on the market for their listings and local competition. A good real estate agent understands the best time to organize open houses and initiate price wars to their client’s benefit.</p>
+                      <div class="aa-blog-single-bottom">
+                        <a href="#" class="aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a href="#" class="aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div>
+                    </div>
+                   
+                  </article>
+                </div>
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="img/blog-img-2.jpg" alt="img"></a>
+                      <span class="aa-date-tag">16 Feb, 2024</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a href="#">Collect rent or construct and sale off.</a></h3>
+                      <p>Studies have shown that homes which have a healthy, green yard command prices that are higher by up to 10%. It is highly necessary to invest in greener grass so as to attract buyers. Furthermore, you can plant some flowers so as to increase your home’s appeal even more. You can also perform sustainable landscaping. Real estate sellers commonly recoup up to 100% of the investment that they make on curb appeal.</p>
+                      <div class="aa-blog-single-bottom">
+                        <a href="#" class="aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a href="#" class="aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div>
+                    </div>                   
+                  </article>
+                </div>
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a href="#"><img src="img/blog-img-3.jpg" alt="img"></a>
+                      <span class="aa-date-tag">17 Feb, 2024</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a href="#">Starting small.</a></h3>
+                      <p>Studies have shown that homes which have a healthy, green yard command prices that are higher by up to 10%. It is highly necessary to invest in greener grass so as to attract buyers. Furthermore, you can plant some flowers so as to increase your home’s appeal even more. You can also perform sustainable landscaping. Real estate sellers commonly recoup up to 100% of the investment that they make on curb appeal.</p>
+                      <div class="aa-blog-single-bottom">
+                        <a href="#" class="aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a href="#" class="aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div>
+                    </div>                   
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Latest blog -->
+
+  <!-- Footer -->
+  <footer id="aa-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="aa-footer-area">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="aa-footer-left">
+               <p>Designed by <a rel="nofollow" href="https://kalemai.github.io/">Gilesoft.Inc</a></p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="aa-footer-middle">
+                <a href="https://www.facebook.com/profile.php?id=100036492322176"><i class="fa fa-facebook"></i></a>
+                <a href="https://hismanpropertyconsultants.com/x.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/hisman_property_consultants_ug/?hl=en#"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@ismanproperties"><i class="fa fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="aa-footer-right">
+                <a href="#">Home</a>
+                <a href="#">Support</a>
+                <a href="#">License</a>
+                <a href="#">FAQ</a>
+                <a href="#">Privacy & Term</a>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / Footer -->
 
  
+  
+  <!-- jQuery library -->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+  <script src="js/jquery.min.js"></script>   
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>   
+  <!-- slick slider -->
+  <script type="text/javascript" src="js/slick.js"></script>
+  <!-- Price picker slider -->
+  <script type="text/javascript" src="js/nouislider.js"></script>
+   <!-- mixit slider -->
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <!-- Custom js -->
+  <script src="js/custom.js"></script> 
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="/favicon_io/favicon.ico">
-
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Superfish -->
-	<link rel="stylesheet" href="css/superfish.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<!-- CS Select -->
-	<link rel="stylesheet" href="css/cs-select.css">
-	<link rel="stylesheet" href="css/cs-skin-border.css">
-	
-	<link rel="stylesheet" href="css/style.css">
-
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
-
-		<header id="fh5co-header-section" class="sticky-banner">
-			<div class="container">
-				<div class="nav-header">
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo" img="images/Hisman_logo.jpg"><a href="index.html"><i class="icon-home"></i>Hisman<span> Property Consultants</span></a></h1>
-					<!-- START #fh5co-menu-wrap -->
-					<nav id="fh5co-menu-wrap" role="navigation">
-						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li>
-								<a href="properties.html" class="fh5co-sub-ddown">Properties</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="#">Rantal Houses</a></li>
-									<li><a href="#">Houses &amp; for Sale</a></li>
-									<li><a href="#">Land sales</a></li>
-									<li><a href="#">Vehicles sale</a></li>
-									<li><a href="#">Rental &amp; Vehicles</a></li>
-								</ul>
-							</li>
-							<li><a href="agent.html">Agents</a></li>
-							<li><a href="blog.html">Hot Deals</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-
-		<!-- end:header-top -->
-
-		<aside id="fh5co-hero" class="js-fullheight">
-			<div class="flexslider js-fullheight">
-				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_1.jpg);">
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-4 col-md-offset-4 col-md-pull-4 js-fullheight slider-text">
-				   				<div class="slider-text-inner">
-				   					<div class="desc">
-				   						<span class="status">Rent</span>
-				   						<h1>Self contained House, Seeta-Lumuli, Uganda</h1>
-											<h2 class="price">UGX700,000 per Month</h2>
-											<p>Good neighbour hood, near road access, Quick sale.</p>
-											<p class="details">
-												<span>Good and green compound</span>
-												<span>2 Bedrooms</span>
-												<span>2 Bathrooms</span>
-												<span>a Garage</span>
-											</p>
-											<p><a class="btn btn-primary btn-lg" href="#">More Info and Contact</a></p>
-				   					</div>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-4 col-md-offset-4 col-md-pull-4 js-fullheight slider-text">
-				   				<div class="slider-text-inner">
-				   					<div class="desc">
-				   						<span class="status">Sale</span>
-				   						<h1>Classic country home for SALE!!, Burindo,Kira</h1>
-											<h2 class="price">UGX 770 Millions</h2>
-											<p>Made out of natural wood 🪵 furniture & designed with green flowers 🌺🌹.</p>
-											<p class="details">
-												<span>25 decimals(100 x 100 fts)</span>
-												<span>Posh & fantastic Serena neighborhood</span>
-												<span>Private Milo land title</span>
-												<span>4 Bedrooms</span>
-												<span>4 Bathrooms</span>
-												<span>2 Independent boys quarters</span>
-											</p>
-											<p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
-				   					</div>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>
-			   	<li style="background-image: url(images/img_bg_3.jpg);">
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-4 col-md-offset-4 col-md-pull-4 js-fullheight slider-text">
-				   				<div class="slider-text-inner">
-				   					<div class="desc">
-				   						<span class="status">Sale</span>
-				   						<h1>Land for Sale in Namagunga</h1>
-											<h2 class="price">UGX 8 Million</h2>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<p class="details">
-												<span>2000 ft sq</span>
-												<span>4 Bedrooms</span>
-												<span>3 Bathrooms</span>
-												<span>2 Garage</span>
-											</p>
-											<p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
-				   					</div>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>		   	
-			  	</ul>
-		  	</div>
-		</aside>
-
-		<div id="fh5co-search-map">
-			<div class="search-property">
-				<div class="s-holder">
-					<h2>Search Properties</h2>
-					<div class="row">
-						<div class="col-xxs-12 col-xs-12">
-							<div class="input-field">
-								<label for="from">Keyword:</label>
-								<input type="text" class="form-control" id="from-place" placeholder="Any"/>
-							</div>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Property Status:</label>
-								<select class="cs-select cs-skin-border">
-									<option value="" disabled selected>Any</option>
-									<option value="1">Rent</option>
-									<option value="2">Sale</option>
-								</select>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Property Type:</label>
-								<select class="cs-select cs-skin-border input-half">
-									<option value="" disabled selected>Any</option>
-									<option value="1">Building</option>
-									<option value="2">Office</option>
-								</select>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<div class="input-field">
-								<label for="from">Location:</label>
-								<input type="text" class="form-control" id="from-place" placeholder="Any"/>
-							</div>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Price:</label>
-								<div class="wide">
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-								</div>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Bedrooms:</label>
-								<div class="wide">
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-								</div>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Bathrooms:</label>
-								<div class="wide">
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-								</div>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Area:</label>
-								<div class="wide">
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-								</div>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12">
-							<section>
-								<label for="class">Parking spots:</label>
-								<div class="wide">
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-									<select class="cs-select cs-select-half cs-skin-border input-half">
-										<option value="" disabled selected>Any</option>
-										<option value="1">Building</option>
-										<option value="2">Office</option>
-									</select>
-								</div>
-							</section>
-						</div>
-						<div class="col-xxs-12 col-xs-12 text-center">
-							<p><a class="btn btn-primary btn-lg" href="#">Learn More</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="map" style="background-image: url(images/cover_bg_1.jpg);">
-			</div>
-		</div>
-
-		<!--<div id="fh5co-features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 animate-box">
-
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-map"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Move House</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">Learn More</a></p>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-4 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-browser"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Mortgage</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">Learn More</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-wallet"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Make Money</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">Learn More</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 animate-box">
-
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-piechart"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Business Home</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">Learn More</a></p>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-4 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-genius"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Marketing</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">Learn More</a></p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Explorer</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-								<p><a href="#">Learn More</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>-->
-
-		<div id="fh5co-popular-properties" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Popular Properties</h3>
-						<p>Below are the popular selling and rental properties. Note that the properties here are popular so they do not stay for long on market.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 animate-box">
-						<a href="../images/property-1.jpg" class="fh5co-property" style="background-image: url(images/property-1.jpg);">
-							<span class="status">Sale</span>
-							<div class="prop-details">
-								<span class="price">UGX 2.2Bilion</span>
-								<h3>Beautiful house in Bwebajja- Road, 6Bedrooms, 6Bathrooms, 2 sitting room up stairs and down, 2 spacious kitchens upstairs and down, Uganda</h3>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 animate-box">
-						<a href="#" class="fh5co-property" style="background-image: url(images/property-2.jpg);">
-							<span class="status">Rent</span>
-							<div class="prop-details">
-								<span class="price">Ugx800,000/mos</span>
-								<h3>Modern Rental House in Seeta</h3>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 animate-box">
-						<a href="images/property-3.jpg" class="fh5co-property" style="background-image: url(images/property-3.jpg);">
-							<span class="status">Sale</span>
-							<div class="prop-details">
-								<span class="price">Ugx200m</span>
-								<h3>Bonggalo House</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-testimonial" style="background-image:url(images/img_bg_2.jpg);">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Some of Our Happy Clients</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="box-testimony animate-box">
-							<blockquote>
-								<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-								<p>&ldquo;The trust Hisman has has helped me pay for my house and land in installements and completed the full payment without any complaint.&rdquo;</p>
-							</blockquote>
-							<p class="author">Ivan Kalema, Programmer <a href="#" target="_blank">Elite Stationers and Printery</a> <span class="subtext">Creative Director</span></p>
-						</div>
-						
-					</div>
-					<div class="col-md-4">
-						<div class="box-testimony animate-box">
-							<blockquote>
-								<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-								<p>&ldquo;They have there property in speciaous places all over Uganda. No hesitation to get the place of your dreams. Keep up the good work.&rdquo;</p>
-							</blockquote>
-							<p class="author">Ivan Kalema, CEO <a href="#" target="_blank">Gilesoft.Inc</a> <span class="subtext">Creative Director</span></p>
-						</div>
-						
-						
-					</div>
-					<div class="col-md-4">
-						<div class="box-testimony animate-box">
-							<blockquote>
-								<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-								<p>&ldquo;I dreamt they delivered and that is what they have continued doing. Support them and you will not regrete in your investment with them.&rdquo;</p>
-							</blockquote>
-							<p class="author">Carol, Sales Agent <a href="#">kalemai.github.io</a> <span class="subtext">Creative Director</span></p>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-properties" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Newest Properties</h3>
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-					</div>-->
-				</div>
-				<div class="row">
-					<div class="col-md-4 animate-box">
-						<div class="property">
-							<a href="imageSlide2.html" class="fh5co-property" style="background-image: url(images/property-1.jpg);">
-								<span class="status">Sale</span>
-								<ul class="list-details">
-									<li>27 Decimals<li>
-									<li>7 Bedroom:</li>
-									<li>6 Bathroom:</li>
-									<li>1 Dining Room:</li>
-								</ul>
-							</a>
-							<div class="property-details">
-								<h3>House in Bweyogerere-Namugongo </h3>
-								<span class="price">UGX 750million</span>
-								<p>With a living room, dining, well fitted kitchen, paved compound, ample parking, seated on 27decimals with private mailo land title.</p>
-								<span class="address"><i class="icon-map"></i>For inspection contact us on 0703487536/0755077647</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="property">
-							<a href="imageSlide2.html" class="fh5co-property" style="background-image: url(images/property-2.jpg);">
-								<span class="status">Rent Apartments on Sale, Seeta Town</span>
-								<ul class="list-details">
-									<li>12 Units, 30decimals plot<li>
-									<li>2 Bedroom each:</li>
-									<li>2 Bathroom:</li>
-									<li>Parking lot</li>
-								</ul>
-							</a>
-							<div class="property-details">
-								<h3>Modern House at along Jinja Highway</h3>
-								<span class="price">UGX670m</span>
-								<p>UGX6m as monthly collections, 50meters off tarmac, private Milo land title, Security gaurd,
-									Seperate meters of power and national water
-									N.B:Ugent sale(it's, fully occupied & new apartments)</p>
-	
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="property">
-							<a href="images/property-3.jpg" class="fh5co-property" style="background-image: url(images/property-3.jpg);">
-								<span class="status">Sale</span>
-								<ul class="list-details">
-									<li>45 Decimals<li>
-									<li>5 Bedroom:</li>
-									<li>4 Bathroom:</li>
-									<li>A Swimming:</li>
-								</ul>
-							</a>
-							<div class="property-details">
-								<h3>Luxurious mansion house for sale in Munyonyo</h3>
-								<span class="price">UGX 2.2Billion</span>
-								<p>5 bedrooms,4 bathrooms,sitting room,dining,spacious kitchen,beautiful compound plus swimming pool,seated on 45 decimals with private mailo land.</p>
-								<span class="address"><i class="icon-map"></i>Munyonyo</span>						
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="property">
-							<a href="images/property-4.jpg" class="fh5co-property" style="background-image: url(images/property-4.jpg);">
-								<span class="status">Sale</span>
-								<ul class="list-details">
-									<li>45 Decimals<li>
-									<li>5 Bedroom:</li>
-									<li>4 Bathroom:</li>
-									<li>A Swimming pool:</li>
-								</ul>
-							</a>
-							<div class="property-details">
-								<h3>Beautiful house for sale in Munyonyo-Kampala</h3>
-								<span class="price">$750,000</span>
-								<p>Sitting room, dinning, kitchen, paved compound, seated on 56 decimals with private mailo land title.</p>
-								<span class="address"><i class="icon-map"></i></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="property">
-							<a href="#" class="fh5co-property" style="background-image: url(images/property-7.jpg);">
-								<span class="status">Rent</span>
-								<ul class="list-details">
-									<li>25 Decimals<li>
-									<li>5 Bedroom:</li>
-									<li>4 Bathroom:</li>
-									
-								</ul>
-							</a>
-							<div class="property-details">
-								<h3>A Brand New posh house for sale in Muyenga</h3>
-								<span class="price">$1.4m</span>
-								<p>Sitting and dining room plus swimming pool, ample parking with secure neighborhood, seated on 25 decimals with privte mailo land title.</p>
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="property">
-							<a href="/Slides/imageSlide1.html" class="fh5co-property" style="background-image: url(images/property-6.jpg);">
-								<span class="status">Sale</span>
-								<ul class="list-details">
-									<li>50 Decimals<li>
-									<li>4 Bedroom:</li>
-									<li>4 Bathroom:</li>
-									<li>A Garden:</li>
-								</ul>
-							</a>
-							<div class="property-details">
-								<h3>Classic Modern Duplex houses for sale in Kira-Kijjabijo.</h3>
-								<span class="price">Tenure system at UGX2.5Billion</span>
-								<p>Each flat has 4 bedrooms,4 bathrooms,well fitted kitchen,private garden,seated on 50 decimals mailo land </p>
-								<span class="address"><i class="icon-map"></i>For more details contact us on 0703487536/0755077647</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div id="fh5co-about" class="fh5co-agent">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Our Staff</h3>
-						<p>We are comprised of a team of specialists in real estate development and sales. Do not hesitate to passby the any services related to the above or reach our socials.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
-						<div class="fh5co-staff">
-							<img class="img-responsive" src="images/user-1.jpg" alt="_blank">
-							<h3>Isma Nsubuga</h3>
-							<p>Managing Director</p>
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
-								<a href="https://www.facebook.com/nsubuga.ismail.908"><i class="icon-facebook2"></i></a>
-								<a href="https://www.instagram.com/insubuga867/"><i class="icon-instagram"></i></a>
-								<!--<a href="#"><i class="icon-dribbble2"></i></a>-->
-								<a href="https://www.youtube.com/@ismanproperties"><i class="icon-youtube"></i></a>
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
-						<div class="fh5co-staff">
-							<img class="img-responsive" src="images/user-2.jpg" alt="Free HTML5 Templates by freeHTML5.co">
-							<h3>Carol Kirabo</h3>
-							<p>Sales Representative</p>
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
-								<a href="https://www.facebook.com/profile.php?id=61552597207933"><i class="icon-facebook2"></i></a>
-								<a href="https://www.instagram.com/carol.kirabo/"><i class="icon-instagram"></i></a>
-								<!--<a href="#"><i class="icon-dribbble2"></i></a>-->
-								<a href="https://www.youtube.com/@ismanproperties"><i class="icon-youtube"></i></a>
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
-						<div class="fh5co-staff">
-							<img class="img-responsive" src="images/user-3.jpg" alt="Free HTML5 Templates by freeHTML5.co">
-							<h3>Bridget</h3>
-							<p>Customer services</p>
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
-								<a href="#"><i class="icon-facebook2"></i></a>
-								<a href="#"><i class="icon-instagram"></i></a>
-								<!--<a href="#"><i class="icon-dribbble2"></i></a>-->
-								<a href="https://www.youtube.com/@ismanproperties"><i class="icon-youtube"></i></a>
-							</p>
-						</div>
-					</div>
-					<!--<div class="col-sm-3 text-center animate-box" data-animate-effect="fadeIn">
-						<div class="fh5co-staff">
-							<img class="img-responsive" src="images/user-4.jpg" alt="Free HTML5 Templates by freeHTML5.co">
-							<h3>Hush Raven</h3>
-							<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat</p>
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
-								<a href="#"><i class="icon-facebook2"></i></a>
-								<a href="#"><i class="icon-instagram"></i></a>
-								<a href="#"><i class="icon-dribbble2"></i></a>
-								<a href="#"><i class="icon-youtube"></i></a>
-							</p>
-						</div>
-					</div>-->
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-blog-section" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Recent From Blog</h3>
-						<p>Blogs coming soon.</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-					<div class="col-lg-4 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/property-4.jpg" alt=""></a>
-							<div class="blog-text">
-								<div class="prod-title">
-									<h3><a href="#">Properties for sale</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<p><a href="#">Learn More...</a></p>
-								</div>
-							</div> 
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/property-2.jpg" alt=""></a>
-							<div class="blog-text">
-								<div class="prod-title">
-									<h3><a href="#">Modern Home</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<p><a href="#">Learn More...</a></p>
-								</div>
-							</div> 
-						</div>
-					</div>
-					<div class="clearfix visible-sm-block"></div>
-					<div class="col-lg-4 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/property-3.jpg" alt=""></a>
-							<div class="blog-text">
-								<div class="prod-title">
-									<h3><a href="#">15% Deal Discount For House</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<p><a href="#">Learn More...</a></p>
-								</div>
-							</div> 
-						</div>
-					</div>
-					<div class="clearfix visible-md-block"></div>
-				</div>
-			</div>
-		</div>
-		<!-- fh5co-blog-section -->
-		<div id="fh5co-contact" class="fh5co-contact">
-			<div class="half-contact">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12 col-md-offset-0 text-center heading-section animate-box">
-							<h3>Ask an agent, We're here to help 24/7</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Name">
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email">
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="half-bg" style="background-image: url(images/cover_bg_2.jpg);"></div>
-		</div>
-		<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-3">
-							<h3 class="section-title">About Hisman</h3>
-							<p>Buying & Selling Land,Land surveying, Houses for rent and sale, Processing land titles.</p>
-						</div>
-						
-						<div class="col-md-3 col-md-push-1">
-							<h3 class="section-title">Links</h3>
-							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="properties.html">Properties</a></li>
-								<!--<li><a href="#">Agent</a></li>-->
-								<li><a href="blog.html">Blog</a></li>
-								<!--<li><a href="#">API</a></li>-->
-								<li><a href="contact.html">FAQ / Contact</a></li>
-							</ul>
-						</div>
-
-						<div class="col-md-3">
-							<h3 class="section-title">Information</h3>
-							<ul>
-								<li><a href="#">Terms &amp; Condition</a></li>
-								<li><a href="#">License</a></li>
-								<li><a href="#">Privacy &amp; Policy</a></li>
-								<li><a href="#">Contact Us</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3">
-							<h3 class="section-title">Newsletter</h3>
-							<p>Subscribe for our newsletter</p>
-							<form class="form-inline" id="fh5co-header-subscribe">
-								<div class="row">
-									<div class="col-md-12 col-md-offset-0">
-										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Enter your email">
-											<button type="submit" class="btn btn-default"><i class="icon-paper-plane"></i></button>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<p class="fh5co-social-icons">
-								<a href="x.com"><i class="icon-twitter2"></i></a>
-								<a href="https://www.facebook.com/profile.php?id=100036492322176"><i class="icon-facebook2"></i></a>
-								<a href="https://www.instagram.com/hisman_property_consultants_ug/?hl=en#"><i class="icon-instagram"></i></a>
-								<!--<a href="#"><i class="icon-dribbble2"></i></a>-->
-								<a href="https://www.youtube.com/@ismanproperties"><i class="icon-youtube"></i></a>
-							</p>
-							<hr>
-							<p>Copyright &copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> . All Rights Reserved. <br>Designed and managed by <i class="icon-heart3"></i> <a href="http://gilesoftinc.co/" target="_blank">Gilesoft</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-	
-
-	</div>
-	<!-- END fh5co-page -->
-
-	</div>
-	<!-- END fh5co-wrapper -->
-
-	<!-- jQuery -->
-
-
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/sticky.js"></script>
-	<!-- Superfish -->
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Date Picker -->
-	<script src="js/bootstrap-datepicker.min.js"></script>
-	<!-- CS Select -->
-	<script src="js/classie.js"></script>
-	<script src="js/selectFx.js"></script>
-
-	
-	<!-- Main JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+  </body>
 </html>
-
