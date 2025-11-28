@@ -25,7 +25,7 @@ Hi! I'm **Kalema Ivan**, a passionate **ICT graduate from The University of the 
 | ✅ Phishing Awareness Guide | Infographic on phishing email safety | Canva/Figma | PDF/Design link | Link |
 | ✅ Login with 2FA UI | Secure login + verification flow | Figma/JS | Live link here | Link |
 
-*(🔁 Replace "Live link here" and "Link" after deployment)*
+
 
 ---
 
